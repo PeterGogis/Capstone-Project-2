@@ -1,0 +1,113 @@
+body {
+    font-family: "Gloria Hallelujah", serif;
+}
+
+.img {
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.text {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 1000;
+    font-style: normal;
+
+}
+
+.title2 {
+    font-size: 65px;
+    font-weight: 1000;
+    font-style: normal;
+
+}
+
+#top-banner {
+    background-color: bisque;
+    position: relative;
+    width: 100%;    
+}
+
+#footer {
+    background-color: bisque;
+}
+
+#btn {
+    background-color: burlywood;
+    color: black;
+}
+
+
+
+.cloud1 {
+    position: absolute;
+    right: 80%;
+    top: 70%;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 80%;
+    bottom: 70%;
+}
+
+@media (max-width: 765px) {
+    .cloud1 {
+        display: none;
+    }
+    
+    .cloud2 {
+        display: none;
+    }
+
+    .webart {
+        display: none;
+    }
+    
+    
+    .title {
+        font-size: 60px;
+    }
+    
+    .title2 {
+        font-size: 45px;
+    }
+
+    .img {
+        border-radius: 50%;
+        height: 18vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .cloud1 {
+        display: none;
+    }
+    
+    .cloud2 {
+        display: none;
+    }
+
+    .webart {
+        display: none;
+    }
+    
+    
+    .title {
+        font-size: 45px;
+    }
+    
+    .title2 {
+        font-size: 30px;
+    }
+    
+    .img {
+        border-radius: 50%;
+        height: 14vh;
+    }
+
+}
